@@ -1,0 +1,25 @@
+input = 65536
+hiddenLayerCount = 2
+hiddenActivations = 50 20
+output = 5
+
+keepAlives = 10
+
+train = false
+run = true
+
+numOfCases = 25
+
+inputName = combined_high_contrast_altorder_12345.bin
+truthName = output-images-altorder-12345.txt
+
+setWeight = load
+
+loadWeightsName = weights_image_12345_3.bin
+0 saveWeightsName =
+
+randLow = -0.1
+randHigh = 0.1
+maxIteration = 1000
+errorThreshold = 5E-4
+lambda = 0.1
