@@ -1,0 +1,800 @@
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_12.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-12.txt
+Weights saved to: weights_image_12_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.276248
+Iteration 20, Error = 0.267584
+Iteration 30, Error = 0.264348
+Iteration 40, Error = 0.258968
+Iteration 50, Error = 0.243169
+Iteration 60, Error = 0.188025
+Iteration 70, Error = 0.088064
+Iteration 80, Error = 0.037223
+Iteration 90, Error = 0.020284
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 91
+Average error reached: 0.01931539434180594
+Training time: 61596 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 344 milliseconds
+Running results: 
+0.87   0.13   0.03   0.03   0.03   
+0.13   0.87   0.04   0.04   0.04   
+0.87   0.13   0.03   0.03   0.03   
+0.14   0.86   0.04   0.04   0.04   
+0.87   0.12   0.03   0.03   0.03   
+0.13   0.88   0.04   0.04   0.04   
+0.87   0.13   0.03   0.03   0.03   
+0.13   0.87   0.04   0.04   0.04   
+0.87   0.13   0.03   0.03   0.03   
+0.13   0.88   0.04   0.04   0.04   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-25-10-5
+Training/test case file used: combined_high_contrast_altorder_12.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-12.txt
+Weights saved to: weights_image_12_2.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.285236
+Iteration 20, Error = 0.267635
+Iteration 30, Error = 0.264042
+Iteration 40, Error = 0.262647
+Iteration 50, Error = 0.261925
+Iteration 60, Error = 0.261478
+Iteration 70, Error = 0.261161
+Iteration 80, Error = 0.260903
+Iteration 90, Error = 0.260661
+Iteration 100, Error = 0.260442
+-------------Network trained! End of training-------------
+Training ended because: 
+   Iterations exceeded maximum iteration limit.
+Iterations reached: 100
+Average error reached: 0.2604419747139145
+Training time: 29163 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 174 milliseconds
+Running results: 
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+0.49   0.51   0.03   0.03   0.03   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_123.bin
+Weights loaded from: weights_image_12_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-123.txt
+Weights saved to: weights_image_123_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.201467
+Iteration 20, Error = 0.150730
+Iteration 30, Error = 0.133909
+Iteration 40, Error = 0.116863
+Iteration 50, Error = 0.090892
+Iteration 60, Error = 0.059266
+Iteration 70, Error = 0.035624
+Iteration 80, Error = 0.022810
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 84
+Average error reached: 0.019634555454389992
+Training time: 85473 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 479 milliseconds
+Running results: 
+0.91   0.00   0.13   0.02   0.02   
+0.00   0.91   0.14   0.03   0.03   
+0.11   0.09   0.81   0.03   0.03   
+0.90   0.00   0.12   0.02   0.02   
+0.00   0.91   0.13   0.03   0.02   
+0.11   0.10   0.81   0.03   0.03   
+0.91   0.00   0.13   0.02   0.02   
+0.00   0.91   0.14   0.03   0.03   
+0.11   0.09   0.82   0.03   0.03   
+0.90   0.00   0.13   0.02   0.02   
+0.00   0.91   0.13   0.03   0.02   
+0.11   0.09   0.81   0.03   0.03   
+0.91   0.00   0.13   0.02   0.02   
+0.00   0.91   0.14   0.03   0.03   
+0.10   0.10   0.81   0.03   0.03   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_123.bin
+Weights loaded from: weights_image_123_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-123.txt
+Weights saved to: weights_image_123_2.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 200
+   Error threshold: 0.002
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.014296
+Iteration 20, Error = 0.011077
+Iteration 30, Error = 0.008964
+Iteration 40, Error = 0.007485
+Iteration 50, Error = 0.006399
+Iteration 60, Error = 0.005571
+Iteration 70, Error = 0.004920
+Iteration 80, Error = 0.004395
+Iteration 90, Error = 0.003961
+Iteration 100, Error = 0.003600
+Iteration 110, Error = 0.003298
+Iteration 120, Error = 0.003040
+Iteration 130, Error = 0.002818
+Iteration 140, Error = 0.002624
+Iteration 150, Error = 0.002454
+Iteration 160, Error = 0.002303
+Iteration 170, Error = 0.002169
+Iteration 180, Error = 0.002049
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 185
+Average error reached: 0.00199307133857904
+Training time: 190690 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 514 milliseconds
+Running results: 
+0.96   0.00   0.03   0.01   0.01   
+0.00   0.96   0.03   0.01   0.01   
+0.04   0.04   0.95   0.02   0.02   
+0.96   0.00   0.03   0.01   0.01   
+0.00   0.96   0.03   0.01   0.01   
+0.04   0.04   0.95   0.02   0.02   
+0.96   0.00   0.03   0.01   0.01   
+0.00   0.96   0.03   0.01   0.01   
+0.04   0.04   0.95   0.02   0.02   
+0.96   0.00   0.03   0.01   0.01   
+0.00   0.96   0.03   0.01   0.01   
+0.04   0.04   0.95   0.02   0.02   
+0.96   0.00   0.03   0.01   0.01   
+0.00   0.96   0.03   0.01   0.01   
+0.04   0.04   0.95   0.02   0.02   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_123.bin
+Weights loaded from: weights_image_123_2.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-123.txt
+Weights saved to: weights_image_123_3.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 200
+   Error threshold: 0.001
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.001890
+Iteration 20, Error = 0.001796
+Iteration 30, Error = 0.001711
+Iteration 40, Error = 0.001633
+Iteration 50, Error = 0.001562
+Iteration 60, Error = 0.001496
+Iteration 70, Error = 0.001435
+Iteration 80, Error = 0.001379
+Iteration 90, Error = 0.001327
+Iteration 100, Error = 0.001278
+Iteration 110, Error = 0.001233
+Iteration 120, Error = 0.001191
+Iteration 130, Error = 0.001151
+Iteration 140, Error = 0.001114
+Iteration 150, Error = 0.001079
+Iteration 160, Error = 0.001046
+Iteration 170, Error = 0.001014
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 175
+Average error reached: 9.995130674414824E-4
+Training time: 178959 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 581 milliseconds
+Running results: 
+0.97   0.00   0.02   0.01   0.01   
+0.00   0.97   0.02   0.01   0.01   
+0.03   0.03   0.97   0.01   0.01   
+0.97   0.00   0.02   0.01   0.01   
+0.00   0.97   0.02   0.01   0.01   
+0.03   0.03   0.97   0.01   0.01   
+0.97   0.00   0.02   0.01   0.01   
+0.00   0.97   0.02   0.01   0.01   
+0.03   0.03   0.97   0.01   0.01   
+0.97   0.00   0.02   0.01   0.01   
+0.00   0.97   0.02   0.01   0.01   
+0.03   0.03   0.97   0.01   0.01   
+0.97   0.00   0.02   0.01   0.01   
+0.00   0.97   0.02   0.01   0.01   
+0.03   0.03   0.97   0.01   0.01   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_1234.bin
+Weights loaded from: weights_image_123_3.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-1234.txt
+Weights saved to: weights_image_1234_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 200
+   Error threshold: 0.001
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.364553
+Iteration 20, Error = 0.427827
+Iteration 30, Error = 0.394657
+Iteration 40, Error = 0.381780
+Iteration 50, Error = 0.348225
+Iteration 60, Error = 0.374126
+Iteration 70, Error = 0.375358
+Iteration 80, Error = 0.368377
+^C%                                                                                                             % java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_1235.bin
+Weights loaded from: weights_image_123_3.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-1235.txt
+Weights saved to: weights_image_1235_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 200
+   Error threshold: 0.001
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.363832
+Iteration 20, Error = 0.403088
+Iteration 30, Error = 0.371608
+Iteration 40, Error = 0.363854
+Iteration 50, Error = 0.334156
+Iteration 60, Error = 0.269137
+Iteration 70, Error = 0.259047
+Iteration 80, Error = 0.337928
+Iteration 90, Error = 0.291252
+Iteration 100, Error = 0.403699
+Iteration 110, Error = 0.374858
+Iteration 120, Error = 0.330269
+Iteration 130, Error = 0.305338
+Iteration 140, Error = 0.292564
+Iteration 150, Error = 0.404801
+Iteration 160, Error = 0.403185
+Iteration 170, Error = 0.382098
+Iteration 180, Error = 0.388561
+Iteration 190, Error = 0.399355
+Iteration 200, Error = 0.397691
+-------------Network trained! End of training-------------
+Training ended because: 
+   Iterations exceeded maximum iteration limit.
+Iterations reached: 200
+Average error reached: 0.39769073537593047
+Training time: 272067 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 795 milliseconds
+Running results: 
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+0.19   0.24   0.25   0.02   0.26   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_5.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-5.txt
+Weights saved to: weights_image_5_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.046793
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 18
+Average error reached: 0.018652002322500496
+Training time: 6142 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 290 milliseconds
+Running results: 
+0.08   0.08   0.09   0.08   0.92   
+0.08   0.08   0.09   0.08   0.92   
+0.08   0.08   0.09   0.08   0.91   
+0.08   0.08   0.09   0.08   0.92   
+0.08   0.08   0.09   0.08   0.92   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_45.bin
+Weights loaded from: weights_image_5_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-45.txt
+Weights saved to: weights_image_45_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.265898
+Iteration 20, Error = 0.247658
+Iteration 30, Error = 0.188715
+Iteration 40, Error = 0.085814
+Iteration 50, Error = 0.036078
+Iteration 60, Error = 0.019861
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 60
+Average error reached: 0.019860908591505556
+Training time: 39439 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 434 milliseconds
+Running results: 
+0.05   0.05   0.04   0.86   0.14   
+0.03   0.03   0.03   0.12   0.88   
+0.05   0.05   0.04   0.86   0.13   
+0.03   0.03   0.03   0.12   0.88   
+0.05   0.05   0.04   0.86   0.14   
+0.03   0.03   0.03   0.12   0.88   
+0.05   0.05   0.04   0.87   0.13   
+0.03   0.03   0.03   0.12   0.88   
+0.05   0.05   0.04   0.87   0.13   
+0.03   0.03   0.03   0.13   0.87   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_145.bin
+Weights loaded from: weights_image_45_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-145.txt
+Weights saved to: weights_image_145_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.162971
+Iteration 20, Error = 0.137272
+Iteration 30, Error = 0.119140
+Iteration 40, Error = 0.092444
+Iteration 50, Error = 0.060062
+Iteration 60, Error = 0.035717
+Iteration 70, Error = 0.022368
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 73
+Average error reached: 0.01984902917440827
+Training time: 77657 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 513 milliseconds
+Running results: 
+0.81   0.04   0.03   0.10   0.10   
+0.13   0.03   0.03   0.91   0.01   
+0.13   0.02   0.02   0.00   0.91   
+0.81   0.04   0.03   0.10   0.10   
+0.13   0.03   0.03   0.91   0.01   
+0.14   0.02   0.02   0.00   0.91   
+0.80   0.04   0.03   0.10   0.10   
+0.13   0.03   0.03   0.90   0.01   
+0.15   0.02   0.02   0.00   0.92   
+0.81   0.04   0.03   0.10   0.10   
+0.13   0.03   0.03   0.91   0.01   
+0.12   0.02   0.02   0.00   0.91   
+0.80   0.04   0.03   0.10   0.10   
+0.13   0.03   0.03   0.91   0.01   
+0.10   0.02   0.02   0.00   0.89   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_1245.bin
+Weights loaded from: weights_image_145_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-1245.txt
+Weights saved to: weights_image_1245_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.131376
+Iteration 20, Error = 0.106245
+Iteration 30, Error = 0.093195
+Iteration 40, Error = 0.073937
+Iteration 50, Error = 0.050104
+Iteration 60, Error = 0.032130
+Iteration 70, Error = 0.021797
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 73
+Average error reached: 0.019692366308962757
+Training time: 107817 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 787 milliseconds
+Running results: 
+0.91   0.08   0.02   0.03   0.03   
+0.05   0.77   0.03   0.10   0.08   
+0.06   0.14   0.02   0.92   0.00   
+0.05   0.14   0.01   0.00   0.92   
+0.91   0.08   0.02   0.03   0.03   
+0.05   0.76   0.03   0.09   0.09   
+0.06   0.14   0.02   0.92   0.00   
+0.06   0.14   0.01   0.00   0.92   
+0.92   0.08   0.02   0.03   0.03   
+0.05   0.77   0.03   0.09   0.09   
+0.06   0.16   0.02   0.91   0.00   
+0.07   0.12   0.02   0.00   0.93   
+0.91   0.08   0.02   0.03   0.03   
+0.05   0.77   0.03   0.09   0.09   
+0.06   0.14   0.02   0.92   0.00   
+0.06   0.14   0.01   0.00   0.92   
+0.91   0.08   0.02   0.03   0.03   
+0.05   0.77   0.03   0.08   0.10   
+0.06   0.14   0.02   0.92   0.00   
+0.05   0.14   0.01   0.00   0.92   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_12345.bin
+Weights loaded from: weights_image_1245_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-12345.txt
+Weights saved to: weights_image_12345_1.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.02
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.146957
+Iteration 20, Error = 0.105064
+Iteration 30, Error = 0.094133
+Iteration 40, Error = 0.087381
+Iteration 50, Error = 0.079168
+Iteration 60, Error = 0.066777
+Iteration 70, Error = 0.048823
+Iteration 80, Error = 0.031724
+Iteration 90, Error = 0.020005
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 91
+Average error reached: 0.019244100415047743
+Training time: 159765 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 930 milliseconds
+Running results: 
+0.92   0.02   0.08   0.02   0.01   
+0.01   0.91   0.10   0.04   0.03   
+0.07   0.05   0.72   0.09   0.06   
+0.04   0.05   0.12   0.92   0.00   
+0.03   0.05   0.13   0.00   0.94   
+0.92   0.02   0.08   0.02   0.01   
+0.02   0.90   0.10   0.02   0.04   
+0.08   0.05   0.72   0.08   0.07   
+0.03   0.06   0.14   0.93   0.00   
+0.04   0.05   0.12   0.00   0.94   
+0.93   0.02   0.08   0.02   0.01   
+0.01   0.91   0.11   0.04   0.03   
+0.07   0.05   0.73   0.09   0.07   
+0.03   0.05   0.16   0.93   0.00   
+0.04   0.05   0.12   0.00   0.94   
+0.92   0.02   0.08   0.02   0.01   
+0.01   0.90   0.11   0.03   0.04   
+0.08   0.05   0.73   0.09   0.06   
+0.04   0.05   0.14   0.93   0.00   
+0.03   0.05   0.13   0.00   0.94   
+0.92   0.02   0.08   0.02   0.01   
+0.01   0.91   0.10   0.04   0.03   
+0.08   0.05   0.73   0.08   0.07   
+0.03   0.06   0.14   0.93   0.00   
+0.02   0.06   0.14   0.00   0.93   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_12345.bin
+Weights loaded from: weights_image_12345_1.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-12345.txt
+Weights saved to: weights_image_12345_2.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 100
+   Error threshold: 0.01
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.013745
+Iteration 20, Error = 0.010636
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 23
+Average error reached: 0.009961670094779334
+Training time: 38884 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 1041 milliseconds
+Running results: 
+0.93   0.02   0.05   0.02   0.01   
+0.01   0.92   0.07   0.03   0.03   
+0.06   0.04   0.82   0.08   0.05   
+0.04   0.05   0.08   0.93   0.00   
+0.03   0.05   0.10   0.00   0.95   
+0.93   0.02   0.05   0.02   0.01   
+0.01   0.92   0.07   0.02   0.04   
+0.06   0.04   0.82   0.07   0.06   
+0.03   0.06   0.09   0.93   0.00   
+0.03   0.05   0.09   0.00   0.94   
+0.93   0.02   0.05   0.02   0.01   
+0.01   0.92   0.07   0.03   0.03   
+0.06   0.04   0.83   0.07   0.06   
+0.03   0.05   0.12   0.94   0.00   
+0.03   0.05   0.09   0.00   0.94   
+0.93   0.02   0.05   0.02   0.01   
+0.01   0.92   0.07   0.02   0.04   
+0.06   0.04   0.83   0.07   0.06   
+0.04   0.05   0.10   0.93   0.00   
+0.03   0.04   0.09   0.00   0.95   
+0.93   0.02   0.05   0.02   0.01   
+0.01   0.92   0.07   0.03   0.03   
+0.06   0.04   0.83   0.07   0.06   
+0.03   0.05   0.10   0.94   0.00   
+0.03   0.05   0.10   0.00   0.94   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_12345.bin
+Weights loaded from: weights_image_12345_2.bin
+
+Keep alive iterations: 10
+Truth table file used: output-images-altorder-12345.txt
+Weights saved to: weights_image_12345_3.bin
+Runtime training parameters: 
+   Random number range: [-0.1, 0.1]
+   Max iterations: 1000
+   Error threshold: 5.0E-4
+   Lambda value: 0.1
+
+Iteration 10, Error = 0.008230
+Iteration 20, Error = 0.007018
+Iteration 30, Error = 0.006123
+Iteration 40, Error = 0.005434
+Iteration 50, Error = 0.004889
+Iteration 60, Error = 0.004447
+Iteration 70, Error = 0.004080
+Iteration 80, Error = 0.003772
+Iteration 90, Error = 0.003508
+Iteration 100, Error = 0.003280
+Iteration 110, Error = 0.003081
+Iteration 120, Error = 0.002905
+Iteration 130, Error = 0.002749
+Iteration 140, Error = 0.002609
+Iteration 150, Error = 0.002483
+Iteration 160, Error = 0.002369
+Iteration 170, Error = 0.002264
+Iteration 180, Error = 0.002169
+Iteration 190, Error = 0.002082
+Iteration 200, Error = 0.002001
+Iteration 210, Error = 0.001926
+Iteration 220, Error = 0.001857
+Iteration 230, Error = 0.001792
+Iteration 240, Error = 0.001731
+Iteration 250, Error = 0.001675
+Iteration 260, Error = 0.001622
+Iteration 270, Error = 0.001572
+Iteration 280, Error = 0.001525
+Iteration 290, Error = 0.001481
+Iteration 300, Error = 0.001439
+Iteration 310, Error = 0.001400
+Iteration 320, Error = 0.001363
+Iteration 330, Error = 0.001327
+Iteration 340, Error = 0.001294
+Iteration 350, Error = 0.001262
+Iteration 360, Error = 0.001232
+Iteration 370, Error = 0.001203
+Iteration 380, Error = 0.001176
+Iteration 390, Error = 0.001149
+Iteration 400, Error = 0.001124
+Iteration 410, Error = 0.001100
+Iteration 420, Error = 0.001077
+Iteration 430, Error = 0.001055
+Iteration 440, Error = 0.001034
+Iteration 450, Error = 0.001013
+Iteration 460, Error = 0.000994
+Iteration 470, Error = 0.000975
+Iteration 480, Error = 0.000957
+Iteration 490, Error = 0.000939
+Iteration 500, Error = 0.000923
+Iteration 510, Error = 0.000906
+Iteration 520, Error = 0.000891
+Iteration 530, Error = 0.000875
+Iteration 540, Error = 0.000861
+Iteration 550, Error = 0.000847
+Iteration 560, Error = 0.000833
+Iteration 570, Error = 0.000820
+Iteration 580, Error = 0.000807
+Iteration 590, Error = 0.000794
+Iteration 600, Error = 0.000782
+Iteration 610, Error = 0.000770
+Iteration 620, Error = 0.000759
+Iteration 630, Error = 0.000748
+Iteration 640, Error = 0.000737
+Iteration 650, Error = 0.000727
+Iteration 660, Error = 0.000717
+Iteration 670, Error = 0.000707
+Iteration 680, Error = 0.000697
+Iteration 690, Error = 0.000688
+Iteration 700, Error = 0.000679
+Iteration 710, Error = 0.000670
+Iteration 720, Error = 0.000661
+Iteration 730, Error = 0.000653
+Iteration 740, Error = 0.000645
+Iteration 750, Error = 0.000637
+Iteration 760, Error = 0.000629
+Iteration 770, Error = 0.000621
+Iteration 780, Error = 0.000614
+Iteration 790, Error = 0.000606
+Iteration 800, Error = 0.000599
+Iteration 810, Error = 0.000592
+Iteration 820, Error = 0.000586
+Iteration 830, Error = 0.000579
+Iteration 840, Error = 0.000573
+Iteration 850, Error = 0.000566
+Iteration 860, Error = 0.000560
+Iteration 870, Error = 0.000554
+Iteration 880, Error = 0.000548
+Iteration 890, Error = 0.000542
+Iteration 900, Error = 0.000537
+Iteration 910, Error = 0.000531
+Iteration 920, Error = 0.000525
+Iteration 930, Error = 0.000520
+Iteration 940, Error = 0.000515
+Iteration 950, Error = 0.000510
+Iteration 960, Error = 0.000505
+Iteration 970, Error = 0.000500
+-------------Network trained! End of training-------------
+Training ended because: 
+   Average error met error threshold.
+Iterations reached: 970
+Average error reached: 4.997475712037333E-4
+Training time: 9338262 milliseconds
+
+-------------Network ran! End of running-------------
+Running time: 797 milliseconds
+Running results: 
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.01   
+0.02   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.02   
+0.01   0.01   0.98   0.02   0.02   
+0.01   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.02   
+0.01   0.02   0.02   0.98   0.00   
+0.01   0.02   0.01   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.02   
+0.02   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.02   
+0.01   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+% java Main control_image_testing.txt
+Control file used: control_image_testing.txt
+Network configuration: 65536-50-20-5
+Training/test case file used: combined_high_contrast_altorder_12345.bin
+Weights loaded from: weights_image_12345_3.bin
+
+-------------Network ran! End of running-------------
+Running time: 1059 milliseconds
+Running results: 
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.01   
+0.02   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.02   
+0.01   0.01   0.98   0.02   0.02   
+0.01   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.02   
+0.01   0.02   0.02   0.98   0.00   
+0.01   0.02   0.01   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.02   
+0.02   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98   
+0.98   0.01   0.01   0.01   0.01   
+0.00   0.98   0.01   0.01   0.01   
+0.01   0.01   0.98   0.02   0.02   
+0.01   0.02   0.02   0.98   0.00   
+0.01   0.02   0.02   0.00   0.98  
